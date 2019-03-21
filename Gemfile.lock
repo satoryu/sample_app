@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/satoryu/sample_private_gem.git
+  revision: 5fb0b3b1da16a007e0b8b04603f39a0c22c1a9f8
+  specs:
+    sample_private_gem (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,6 +14,7 @@ PLATFORMS
 
 DEPENDENCIES
   rack (~> 2.0)
+  sample_private_gem!
 
 BUNDLED WITH
    2.0.1
